@@ -1,10 +1,12 @@
-.gradient-background {
-  background: linear-gradient(300deg, #0e074d, #8e3342, #11060fdf);
+.gradient-background{
+  background: linear-gradient(300deg, #440456, #8e3342, #11060fdf);
   background-size: 180% 180%;
-  animation: gradient-animation 5s ease infinite;
+  animation: -animation 5s ease infinite;
+
   
 }
-@keyframes gradient-animation {
+
+@keyframes -animation {
   0% {
     background-position: 0% 50%;
   }
@@ -15,3 +17,35 @@
     background-position: 0% 50%;
   }
 }
+h5{
+  color: orange;
+ margin-bottom: 50px;
+  
+}
+.navbar-toggler{
+  background-color:  orange;
+}
+.navbar-toggler-icon{
+  background-color: orange;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: solid orange;
+  background-color: rgba(66, 10, 88, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(41, 26, 243, 0.701);
+}
+
+.bi {
+background-color: orange;
+}
+
+.about-text{
+  color: peru;
+}
+
+
+
